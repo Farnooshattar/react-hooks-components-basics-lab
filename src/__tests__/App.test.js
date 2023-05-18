@@ -9,7 +9,7 @@ test("renders without errors", () => {
 
 test("renders the correct child components", () => {
   const { container } = render(<App />);
-
+  screen.debug()
   /*
     Uncomment the line below to see the DOM elements being returned
     by the App component in your terminal when you run the tests
